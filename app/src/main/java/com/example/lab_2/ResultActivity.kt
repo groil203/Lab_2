@@ -13,7 +13,7 @@ class ResultActivity : AppCompatActivity() {
             resView.text = result.toString()
 
         closeBtn.setOnClickListener{
-            this.finish();
+            this.finish()
         }
     }
 }

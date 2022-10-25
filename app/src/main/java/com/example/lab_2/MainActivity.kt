@@ -1,13 +1,10 @@
 package com.example.lab_2
 
 import android.content.Intent
-import android.content.pm.PackageManager.NameNotFoundException
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType
-import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
-import net.objecthunter.exp4j.Expression
 import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
@@ -42,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun operations(op: String){
+    private fun operations(op: String){
         enterNums.append(op)
     }
 

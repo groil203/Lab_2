@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Lab_2</string>
     <string name="enter_numbers_here">Enter numbers here</string>
+    <string name="no_answer">No answer</string>
+    <string name="close">Close</string>
+    <string name="calculator">Calculator</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
 </resources>
